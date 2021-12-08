@@ -22,3 +22,5 @@ const concatStrings = (str, separator = '') => {
 
   return curry;
 };
+
+module.exports = { concatStrings };
