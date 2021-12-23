@@ -5,3 +5,4 @@ const createDebounceFunction = (func, wait) => {
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(context, args), wait);
   };
+}
